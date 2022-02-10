@@ -423,19 +423,7 @@ int SinglyLinkedList::operator[](int index)
 }
 void SinglyLinkedList::operator=(const SinglyLinkedList& other)
 {
-	Node* current = head;
-	Node* next = head;
-	while (current != nullptr)
-	{
-		next = next->next;
-		delete current;
-		current = next;
-	}
-
-	head = nullptr;
-	tail = nullptr;
-	count = 0;
-
+	Clear();
 	MergeWith(other);
 }
 void SinglyLinkedList::operator+(int value)
