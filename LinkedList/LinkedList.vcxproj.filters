@@ -21,9 +21,15 @@
     <ClCompile Include="SinglyLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SinglyLinkedStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SinglyLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

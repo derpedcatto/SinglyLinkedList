@@ -1,4 +1,4 @@
-#include "SinglyLinkedList.h"
+#include "SinglyLinkedStack.h"
 #include <iostream>
 using namespace std;
 
@@ -9,5 +9,6 @@ int main()
 	l1.Push(10);
 	l1.Push(20);
 	l1.Push(30);
+	l1.Pop();
 	l1.Peek();
 }
